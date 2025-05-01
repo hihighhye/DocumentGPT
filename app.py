@@ -137,6 +137,8 @@ if user_openai_api_key:
         max_token_limit=120,
         return_messages=True,
     )
+else:
+    st.session_state["messages"] = []
 
 if file:
     retriever = embed_file(file)
