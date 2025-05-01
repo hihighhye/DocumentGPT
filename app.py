@@ -4,7 +4,7 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings, CacheBackedEmbeddings
 from langchain.vectorstores import FAISS
 from langchain.storage import LocalFileStore
-# from langchain_core.documents import Document
+from langchain_core.documents import Document
 from langchain.chat_models import ChatOpenAI
 from langchain.callbacks.base import BaseCallbackHandler
 from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
@@ -47,11 +47,11 @@ def embed_file(file):
         chunk_overlap=100,
     )
 
-    loader = UnstructuredFileLoader(file_path)
-    docs = loader.load_and_split(text_splitter=splitter)   ### didn't work...
+    # loader = UnstructuredFileLoader(file_path)
+    # docs = loader.load_and_split(text_splitter=splitter)   ### didn't work...
 
-    # docs = splitter.split_text(file_content.decode('utf-8'))
-    # docs = [ Document(page_content=doc) for doc in docs ]
+    docs = splitter.split_text(file_content.decode('utf-8'))
+    docs = [ Document(page_content=doc) for doc in docs ]
     
     embeddings = OpenAIEmbeddings()
     cached_embeddings = CacheBackedEmbeddings.from_bytes_store(embeddings, cache_dir)
