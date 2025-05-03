@@ -1,0 +1,212 @@
+
+[     UTC     ] Logs for documentgpt-cysn6ke7swtda7gfcu2wxs.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[23:48:58] 🖥 Provisioning machine...
+[23:48:58] 🎛 Preparing system...
+[23:48:58] ⛓ Spinning up manager process...
+[23:48:59] 🚀 Starting up repository: 'documentgpt', branch: 'master', main module: 'app.py'
+[23:48:59] 🐙 Cloning repository...
+[23:49:00] 🐙 Cloning into '/mount/src/documentgpt'...
+
+[23:49:00] 🐙 Cloned repository!
+[23:49:00] 🐙 Pulling code changes from Github...
+[23:49:00] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.9.22 environment at /home/adminuser/venv
+  × No solution found when resolving dependencies:[2025-04-30 23:49:07.177552] 
+  ╰─▶ Because there is no version of en-core-web-sm==3.6.0 and you require
+      en-core-web-sm==3.6.0, we can conclude that your requirements are
+      unsatisfiable.[2025-04-30 23:49:07.179175] 
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.9.22 environment at /home/adminuser/venv[2025-04-30 23:49:07.313104] 
+Resolved 5 packages in 90ms
+Prepared 5 packages in 136ms
+Installed 5 packages in 176ms
+ + markdown-it-py==3.0.0
+ + mdurl==0.1.2
+ + pygments==2.19.1
+ + rich==14.0.0
+ + typing-extensions==4.13.2
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Using standard pip install.
+Collecting aiofiles==23.2.1 (from -r /mount/src/documentgpt/requirements.txt (line 1))
+  Downloading aiofiles-23.2.1-py3-none-any.whl.metadata (9.7 kB)
+Collecting aiohttp==3.8.5 (from -r /mount/src/documentgpt/requirements.txt (line 2))
+  Downloading aiohttp-3.8.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.7 kB)
+Collecting aiosignal==1.3.1 (from -r /mount/src/documentgpt/requirements.txt (line 3))
+  Downloading aiosignal-1.3.1-py3-none-any.whl.metadata (4.0 kB)
+Collecting altair==5.1.1 (from -r /mount/src/documentgpt/requirements.txt (line 4))
+  Downloading altair-5.1.1-py3-none-any.whl.metadata (8.6 kB)
+Collecting annotated-types==0.7.0 (from -r /mount/src/documentgpt/requirements.txt (line 5))
+  Downloading annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting antlr4-python3-runtime==4.9.3 (from -r /mount/src/documentgpt/requirements.txt (line 6))
+  Downloading antlr4-python3-runtime-4.9.3.tar.gz (117 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.0/117.0 kB 8.7 MB/s eta 0:00:00[2025-04-30 23:49:11.210262] 
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting anyio==3.7.1 (from -r /mount/src/documentgpt/requirements.txt (line 7))
+  Downloading anyio-3.7.1-py3-none-any.whl.metadata (4.7 kB)
+Collecting appnope==0.1.3 (from -r /mount/src/documentgpt/requirements.txt (line 8))
+  Downloading appnope-0.1.3-py2.py3-none-any.whl.metadata (1.2 kB)
+Collecting asttokens==2.4.0 (from -r /mount/src/documentgpt/requirements.txt (line 9))
+  Downloading asttokens-2.4.0-py2.py3-none-any.whl.metadata (4.9 kB)
+Collecting async-timeout==4.0.3 (from -r /mount/src/documentgpt/requirements.txt (line 10))
+  Downloading async_timeout-4.0.3-py3-none-any.whl.metadata (4.2 kB)
+Collecting attrs==23.1.0 (from -r /mount/src/documentgpt/requirements.txt (line 11))
+  Downloading attrs-23.1.0-py3-none-any.whl.metadata (11 kB)
+Collecting backcall==0.2.0 (from -r /mount/src/documentgpt/requirements.txt (line 12))
+  Downloading backcall-0.2.0-py2.py3-none-any.whl.metadata (2.0 kB)
+Collecting backoff==2.2.1 (from -r /mount/src/documentgpt/requirements.txt (line 13))
+  Downloading backoff-2.2.1-py3-none-any.whl.metadata (14 kB)
+Collecting bcrypt==4.0.1 (from -r /mount/src/documentgpt/requirements.txt (line 14))
+  Downloading bcrypt-4.0.1-cp36-abi3-manylinux_2_28_x86_64.whl.metadata (9.0 kB)
+Collecting beautifulsoup4==4.12.2 (from -r /mount/src/documentgpt/requirements.txt (line 15))
+  Downloading beautifulsoup4-4.12.2-py3-none-any.whl.metadata (3.6 kB)
+Collecting black==23.9.1 (from -r /mount/src/documentgpt/requirements.txt (line 16))
+  Downloading black-23.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (65 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 65.1/65.1 kB 76.4 MB/s eta 0:00:00[2025-04-30 23:49:12.683123] 
+Collecting blinker==1.6.2 (from -r /mount/src/documentgpt/requirements.txt (line 17))
+  Downloading blinker-1.6.2-py3-none-any.whl.metadata (2.0 kB)
+Collecting blis==0.7.10 (from -r /mount/src/documentgpt/requirements.txt (line 18))
+  Downloading blis-0.7.10-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.4 kB)
+Collecting Brotli==1.1.0 (from -r /mount/src/documentgpt/requirements.txt (line 19))
+  Downloading Brotli-1.1.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl.metadata (5.5 kB)
+Collecting cachetools==5.3.1 (from -r /mount/src/documentgpt/requirements.txt (line 20))
+  Downloading cachetools-5.3.1-py3-none-any.whl.metadata (5.2 kB)
+Collecting catalogue==2.0.9 (from -r /mount/src/documentgpt/requirements.txt (line 21))
+  Downloading catalogue-2.0.9-py3-none-any.whl.metadata (14 kB)
+Collecting certifi==2023.7.22 (from -r /mount/src/documentgpt/requirements.txt (line 22))
+  Downloading certifi-2023.7.22-py3-none-any.whl.metadata (2.2 kB)
+Collecting cffi==1.15.1 (from -r /mount/src/documentgpt/requirements.txt (line 23))
+  Downloading cffi-1.15.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.1 kB)
+Collecting chardet==5.2.0 (from -r /mount/src/documentgpt/requirements.txt (line 24))
+  Downloading chardet-5.2.0-py3-none-any.whl.metadata (3.4 kB)
+Collecting charset-normalizer==3.2.0 (from -r /mount/src/documentgpt/requirements.txt (line 25))
+  Downloading charset_normalizer-3.2.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (31 kB)
+Collecting Chroma==0.2.0 (from -r /mount/src/documentgpt/requirements.txt (line 26))
+  Downloading Chroma-0.2.0.tar.gz (5.8 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting chroma-hnswlib==0.7.3 (from -r /mount/src/documentgpt/requirements.txt (line 27))
+  Downloading chroma_hnswlib-0.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (252 bytes)
+Collecting chromadb==0.4.15 (from -r /mount/src/documentgpt/requirements.txt (line 28))
+  Downloading chromadb-0.4.15-py3-none-any.whl.metadata (7.2 kB)
+Collecting click==8.1.7 (from -r /mount/src/documentgpt/requirements.txt (line 29))
+  Downloading click-8.1.7-py3-none-any.whl.metadata (3.0 kB)
+Collecting colorama==0.4.6 (from -r /mount/src/documentgpt/requirements.txt (line 30))
+  Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Collecting coloredlogs==15.0.1 (from -r /mount/src/documentgpt/requirements.txt (line 31))
+  Downloading coloredlogs-15.0.1-py2.py3-none-any.whl.metadata (12 kB)
+Collecting comm==0.1.4 (from -r /mount/src/documentgpt/requirements.txt (line 32))
+  Downloading comm-0.1.4-py3-none-any.whl.metadata (4.2 kB)
+Collecting confection==0.1.3 (from -r /mount/src/documentgpt/requirements.txt (line 33))
+  Downloading confection-0.1.3-py3-none-any.whl.metadata (19 kB)
+Collecting contourpy==1.1.1 (from -r /mount/src/documentgpt/requirements.txt (line 34))
+  Downloading contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.9 kB)
+Collecting cryptography==41.0.4 (from -r /mount/src/documentgpt/requirements.txt (line 35))
+  Downloading cryptography-41.0.4-cp37-abi3-manylinux_2_28_x86_64.whl.metadata (5.2 kB)
+Collecting cycler==0.11.0 (from -r /mount/src/documentgpt/requirements.txt (line 36))
+  Downloading cycler-0.11.0-py3-none-any.whl.metadata (785 bytes)
+Collecting cymem==2.0.8 (from -r /mount/src/documentgpt/requirements.txt (line 37))
+  Downloading cymem-2.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (8.4 kB)
+Collecting dataclasses-json==0.5.14 (from -r /mount/src/documentgpt/requirements.txt (line 38))
+  Downloading dataclasses_json-0.5.14-py3-none-any.whl.metadata (22 kB)
+Collecting debugpy==1.8.0 (from -r /mount/src/documentgpt/requirements.txt (line 39))
+  Downloading debugpy-1.8.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.0 kB)
+Collecting decorator==5.1.1 (from -r /mount/src/documentgpt/requirements.txt (line 40))
+  Downloading decorator-5.1.1-py3-none-any.whl.metadata (4.0 kB)
+Collecting Deprecated==1.2.18 (from -r /mount/src/documentgpt/requirements.txt (line 41))
+  Downloading Deprecated-1.2.18-py2.py3-none-any.whl.metadata (5.7 kB)
+Collecting dill==0.3.7 (from -r /mount/src/documentgpt/requirements.txt (line 42))
+  Downloading dill-0.3.7-py3-none-any.whl.metadata (9.9 kB)
+Collecting distro==1.9.0 (from -r /mount/src/documentgpt/requirements.txt (line 43))
+  Downloading distro-1.9.0-py3-none-any.whl.metadata (6.8 kB)
+Collecting dnspython==2.4.2 (from -r /mount/src/documentgpt/requirements.txt (line 44))
+  Downloading dnspython-2.4.2-py3-none-any.whl.metadata (4.9 kB)
+Collecting duckduckgo-search==3.8.5 (from -r /mount/src/documentgpt/requirements.txt (line 45))
+  Downloading duckduckgo_search-3.8.5-py3-none-any.whl.metadata (16 kB)
+Collecting durationpy==0.9 (from -r /mount/src/documentgpt/requirements.txt (line 46))
+  Downloading durationpy-0.9-py3-none-any.whl.metadata (338 bytes)
+Collecting EbookLib==0.18 (from -r /mount/src/documentgpt/requirements.txt (line 47))
+  Downloading EbookLib-0.18.tar.gz (115 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 115.5/115.5 kB 101.0 MB/s eta 0:00:00[2025-04-30 23:49:16.244229] 
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting effdet==0.4.1 (from -r /mount/src/documentgpt/requirements.txt (line 48))
+  Downloading effdet-0.4.1-py3-none-any.whl.metadata (33 kB)
+Collecting elastic-transport==8.4.0 (from -r /mount/src/documentgpt/requirements.txt (line 49))
+  Downloading elastic_transport-8.4.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting elasticsearch==8.9.0 (from -r /mount/src/documentgpt/requirements.txt (line 50))
+  Downloading elasticsearch-8.9.0-py3-none-any.whl.metadata (5.2 kB)
+Collecting email-validator==2.0.0.post2 (from -r /mount/src/documentgpt/requirements.txt (line 51))
+  Downloading email_validator-2.0.0.post2-py3-none-any.whl.metadata (25 kB)
+Collecting emoji==2.8.0 (from -r /mount/src/documentgpt/requirements.txt (line 52))
+  Downloading emoji-2.8.0-py2.py3-none-any.whl.metadata (5.3 kB)
+ERROR: Ignored the following versions that require a different python version: 1.3.1 Requires-Python >=3.10; 1.3.2 Requires-Python >=3.10
+ERROR: Could not find a version that satisfies the requirement en-core-web-sm==3.6.0 (from versions: none)
+ERROR: No matching distribution found for en-core-web-sm==3.6.0
+
+[notice] A new release of pip is available: 24.0 -> 25.1
+[notice] To update, run: pip install --upgrade pip
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using standard pip install.
+Collecting rich>=10.14.0
+  Downloading rich-14.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+  Downloading pygments-2.19.1-py3-none-any.whl.metadata (2.5 kB)
+Collecting typing-extensions<5.0,>=4.0.0 (from rich>=10.14.0)
+  Downloading typing_extensions-4.13.2-py3-none-any.whl.metadata (3.0 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading rich-14.0.0-py3-none-any.whl (243 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.2/243.2 kB 16.0 MB/s eta 0:00:00[2025-04-30 23:49:19.163742] 
+Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 99.7 MB/s eta 0:00:00[2025-04-30 23:49:19.181608] 
+Downloading pygments-2.19.1-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 70.9 MB/s eta 0:00:00[2025-04-30 23:49:19.219268] 
+Downloading typing_extensions-4.13.2-py3-none-any.whl (45 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.8/45.8 kB 109.3 MB/s eta 0:00:00[2025-04-30 23:49:19.233442] 
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: typing-extensions, pygments, mdurl, markdown-it-py, rich
+  Attempting uninstall: typing-extensions
+    Found existing installation: typing_extensions 4.13.2
+    Uninstalling typing_extensions-4.13.2:
+      Successfully uninstalled typing_extensions-4.13.2
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.19.1
+    Uninstalling Pygments-2.19.1:
+      Successfully uninstalled Pygments-2.19.1
+  Attempting uninstall: mdurl
+    Found existing installation: mdurl 0.1.2
+    Uninstalling mdurl-0.1.2:
+      Successfully uninstalled mdurl-0.1.2
+  Attempting uninstall: markdown-it-py
+    Found existing installation: markdown-it-py 3.0.0
+    Uninstalling markdown-it-py-3.0.0:
+      Successfully uninstalled markdown-it-py-3.0.0
+  Attempting uninstall: rich
+    Found existing installation: rich 14.0.0
+    Uninstalling rich-14.0.0:
+      Successfully uninstalled rich-14.0.0
+Successfully installed markdown-it-py-3.0.0 mdurl-0.1.2 pygments-2.19.1 rich-14.0.0 typing-extensions-4.13.2
+
+[notice] A new release of pip is available: 24.0 -> 25.1
+[notice] To update, run: pip install --upgrade pip
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[23:49:23] ❗️ installer returned a non-zero exit code
+[23:49:23] ❗️ Error during processing dependencies! Please fix the error and push an update, or try restarting the app.
