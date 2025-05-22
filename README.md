@@ -28,8 +28,9 @@ prompt = ChatPromptTemplate.from_messages([
 <br>
 
 ## ConversationBufferMemory
-대화 내용 전체 저장. 비효울적. 고비용. 텍스트 자동완성 기능 구현 시 유용.
-[langchain official document](https://python.langchain.com/api_reference/langchain/memory/langchain.memory.buffer.ConversationBufferMemory.html#conversationbuffermemory)
+대화 내용 전체 저장. 비효울적. 고비용. 텍스트 자동완성 기능 구현 시 유용. 
+<br>
+*Ref. [langchain official document](https://python.langchain.com/api_reference/langchain/memory/langchain.memory.buffer.ConversationBufferMemory.html#conversationbuffermemory)
 
 <br>
 <br>
